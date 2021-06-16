@@ -1,0 +1,8 @@
+{
+  "name": "afancy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/afancy-org/afancy.git",
+  "author": "Mahmudul Hasan Mithu",
+  "license": "MIT"
+}
