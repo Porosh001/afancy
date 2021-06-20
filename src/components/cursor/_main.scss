@@ -1,0 +1,47 @@
+// @since   1.0.0
+// @version 1.0.0
+// @author  Mahmudul Hasan Mithu
+
+
+/// .cursor-none
+/// .cursor-auto
+/// .cursor-default
+///  ================
+/// .cursor-text
+/// .cursor-pointer
+///  ================
+/// .cursor-wait
+/// .cursor-progress
+///  ================
+/// .cursor-move
+/// .cursor-copy
+/// .cursor-col-resize
+///  ================
+/// .cursor-zoom-in
+/// .cursor-zoom-out
+///  ================
+/// .cursor-help
+/// .cursor-not-allowed
+
+
+.cursor{
+  &-none{ cursor: none !important; }
+  &-auto{ cursor: auto !important; }
+  &-default{ cursor: default !important; }
+  
+  &-text{ cursor: text !important; }
+  &-pointer{ cursor: pointer !important; }
+  
+  &-wait{ cursor: wait !important; }
+  &-progress{ cursor: progress !important; }
+  
+  &-move{ cursor: move !important; }
+  &-copy{ cursor: copy !important; }
+  &-col-resize{ cursor: col-resize !important; }
+  
+  &-zoom-in{ cursor: zoom-in !important; }
+  &-zoom-out{ cursor: zoom-out !important; }
+  
+  &-help{ cursor: help !important; }
+  &-not-allowed{ cursor: not-allowed !important; }
+}
