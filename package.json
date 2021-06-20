@@ -1,8 +1,17 @@
 {
-  "name": "afancy",
+  "name": "@afancy/afancy",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "",
   "repository": "https://github.com/afancy-org/afancy.git",
   "author": "Mahmudul Hasan Mithu",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn build:css && yarn build:css-min",
+    "build:css": "sass src/index.scss dist/css/afancy.css",
+    "build:css-min": "sass src/index.scss dist/css/afancy.min.css -s compressed",
+    "watch:css": "sass -w src/index.scss dist/css/afancy.css"
+  },
+  "dependencies": {
+    "vue": "^2.6.14"
+  }
 }
