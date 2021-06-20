@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../src/index.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAAA","file":"afancy.min.css"}
+{"version":3,"sourceRoot":"","sources":["../../src/components/cursor/_main.scss","../../src/index.scss"],"names":[],"mappings":"AA2BE,oCACA,oCACA,0CAEA,oCACA,0CAEA,oCACA,4CAEA,oCACA,oCACA,gDAEA,0CACA,4CAEA,oCACA,kDC7CF;AAAA;AAAA;AAAA","file":"afancy.min.css"}

@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../src/index.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAAA","file":"afancy.css"}
+{"version":3,"sourceRoot":"","sources":["../../src/components/cursor/_main.scss","../../src/index.scss"],"names":[],"mappings":"AA2BE;EAAQ;;AACR;EAAQ;;AACR;EAAW;;AAEX;EAAQ;;AACR;EAAW;;AAEX;EAAQ;;AACR;EAAY;;AAEZ;EAAQ;;AACR;EAAQ;;AACR;EAAc;;AAEd;EAAW;;AACX;EAAY;;AAEZ;EAAQ;;AACR;EAAe;;;AC7CjB;AAAA;AAAA;AAAA","file":"afancy.css"}
