@@ -1,4 +1,4 @@
-# Afancy - a fantastic framework for designer
+# [Afancy](https://www.afancy.org) - a fantastic framework for designer
 
 # Guide
 ## Notification
@@ -41,4 +41,3 @@
   ```
 
   ### Thank you very much
-  
