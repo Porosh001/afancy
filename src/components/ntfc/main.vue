@@ -19,28 +19,16 @@
 </template>
 
 
-
-<script lang="ts">
-
-interface custome_config {
-  content: string,
-  style: {}
-}
-
-
-import Vue from 'vue';
-export default Vue.extend({
+<script>
+export default {
   data(){
-    const uid: number = 0;
-    const ntfcs:any = {};
     return {
-      uid,
-      ntfcs
-    }
-
+      uid: 0,
+      ntfcs: {}
+    };
   },
   methods: {
-    open(custom_config: custome_config){
+    open(custom_config){
       let config = {
         uid: this.uid,
         content: custom_config.content,
@@ -54,11 +42,11 @@ export default Vue.extend({
       this.$set( this.ntfcs, 'ntfc_'+this.uid, config );
       this.uid++;
     },
-    remove( unique_property:string ){
+    remove( unique_property ){
       this.$delete(this.ntfcs, unique_property);
     }
   }
-})
+}
 </script>
 
 

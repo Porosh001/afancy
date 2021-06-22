@@ -1,7 +1,7 @@
 import components from './components';
 import fnc from './fnc';
 
-const install = (Vue: any, options={}) => {
+const install = (Vue) => {
   Vue.use(components);
   Vue.prototype.$fnc = fnc;
 }
