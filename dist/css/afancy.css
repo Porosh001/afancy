@@ -1,3 +1,56 @@
+@-webkit-keyframes fnc_ntfc_translate_horizontal-data-v-cadb5c14 {
+  0% {
+    cursor: wait;
+    transform: translate(360px);
+  }
+  to {
+    cursor: wait;
+    transform: translate(0);
+  }
+}
+@keyframes fnc_ntfc_translate_horizontal-data-v-cadb5c14 {
+  0% {
+    cursor: wait;
+    transform: translate(360px);
+  }
+  to {
+    cursor: wait;
+    transform: translate(0);
+  }
+}
+.fnc-ntfc-parent[data-v-cadb5c14] {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 900000;
+  padding: 20px 35px;
+}
+
+.fnc-ntfc[data-v-cadb5c14] {
+  --background-color:#00f;
+  background-color: var(--background-color);
+  width: 100%;
+  max-width: 360px;
+  max-height: 100px;
+  padding: 15px 7px;
+  box-shadow: 0 5px 30px -15px var(--background-color);
+  margin: 7px 10px;
+  cursor: pointer;
+}
+
+.ntfc-move[data-v-cadb5c14] {
+  transition: all 0.4s;
+}
+
+.ntfc-enter-active[data-v-cadb5c14] {
+  -webkit-animation: fnc_ntfc_translate_horizontal-data-v-cadb5c14 0.8s ease 0s 1 normal;
+  animation: fnc_ntfc_translate_horizontal-data-v-cadb5c14 0.8s ease 0s 1 normal;
+}
+
+.ntfc-leave-active[data-v-cadb5c14] {
+  animation: fnc_ntfc_translate_horizontal-data-v-cadb5c14 0.8s ease 0s 1 reverse;
+}
+
 .cursor-none {
   cursor: none !important;
 }
@@ -40,10 +93,5 @@
 .cursor-not-allowed {
   cursor: not-allowed !important;
 }
-
-/*!
- * Afancy v1.0.0 (https://afancy.org)
- * Licensed under MIT (https://raw.githubusercontent.com/afancy-org/afancy/master/license.md)
- */
 
 /*# sourceMappingURL=afancy.css.map */
