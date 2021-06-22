@@ -83,6 +83,7 @@ export default {
   box-shadow: 0px 5px 30px -15px var(--background-color);
   margin: 7px 10px;
   cursor: pointer;
+  user-select: none;
 }
 
 
