@@ -1,0 +1,7 @@
+@use './config' as config;
+
+:root{
+  @each $key, $value in config.$colors{
+    --fnc-#{$key}: '#{$value}'
+  }
+}
