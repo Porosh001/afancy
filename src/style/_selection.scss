@@ -1,0 +1,11 @@
+@use './config' as config;
+
+
+@each $key, $value in config.$colors{
+  .selection-#{$key}::selection {
+    background-color: var(--fnc-#{$key});
+    @if ($key=='warning' or $key=='light') {
+      color: #000;
+    }
+  }
+}
