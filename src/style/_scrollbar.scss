@@ -1,0 +1,31 @@
+@use './config' as config;
+
+
+
+
+%sb{
+  overflow: auto;
+  scrollbar-width: auto;
+}
+%sb-webkit-scrollbar { width: 5.5px; }
+%sb-webkit-scrollbar-track { background-color: transparent; }
+
+@each $key, $value in config.$colors{
+  .sb-#{$key} {
+    @extend %sb;
+    scrollbar-color: var(--fnc-#{$key}) transparent;
+  }
+  
+  .sb-#{$key}::-webkit-scrollbar{ @extend %sb-webkit-scrollbar; }
+  .sb-#{$key}::-webkit-scrollbar-track { @extend %sb-webkit-scrollbar-track; }
+  .sb-#{$key}::-webkit-scrollbar-thumb { background-color: var(--fnc-#{$key}); }
+}
+
+
+
+.sb-thin {
+  scrollbar-width: thin !important;
+  &::-webkit-scrollbar {
+    width: 3px !important;
+  }
+}
