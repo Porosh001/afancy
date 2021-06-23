@@ -1,0 +1,8 @@
+@use './config' as config;
+
+
+@each $key, $value in config.$colors{
+  .fnc-text-#{$key} {
+    color: var(--fnc-#{$key});
+  }
+}
