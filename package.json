@@ -1,6 +1,6 @@
 {
   "name": "@afancy/afancy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "dist/js/afancy.umd.min.js",
   "repository": "https://github.com/afancy-org/afancy.git",
   "author": "Mahmudul Hasan Mithu",
