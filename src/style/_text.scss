@@ -1,0 +1,8 @@
+$aligns: (start:left, center:center, end:right);
+
+
+@each $key, $value in $aligns {
+  .text-#{$key} {
+    text-align: $value !important;
+  }
+}
