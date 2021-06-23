@@ -1,2 +1,27 @@
-@use '../dist/js/afancy.css';
-@use  './style/cursor/main' as cursor;
+// depends on config only
+@use  'style/root';
+@use  'style/color';
+@use  'style/hover/color' as hover-color;
+@use  'style/background-color';
+@use  'style/hover/background-color' as hover-background-color;
+@use  'style/selection';
+
+
+
+
+// depends on config and sibling module
+@use  'style/scrollbar';                          // depends on overflow
+
+
+
+
+// no dependency
+@use  'style/text';
+@use  'style/hover/text' as hover-text;
+@use  'style/cursor';
+
+
+
+
+// others
+@use  '../dist/js/afancy.css';
