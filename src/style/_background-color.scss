@@ -2,7 +2,7 @@
 
 
 @each $key, $value in config.$colors{
-  .fnc-bg-#{$key} {
+  .bg-#{$key} {
     background-color: var(--fnc-#{$key});
   }
 }
