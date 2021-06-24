@@ -1,8 +1,0 @@
-$aligns: (start:left, center:center, end:right);
-
-
-@each $key, $value in $aligns {
-  .hover-text-#{$key}:hover {
-    text-align: $value !important;
-  }
-}
