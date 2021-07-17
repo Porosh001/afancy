@@ -1,9 +1,5 @@
-$aligns: (start:left, center:center, end:right, justify: justify);
-
-
-@each $key, $value in $aligns {
-  .text-#{$key} {
+@each $key, $value in (start:left, center:center, end:right, justify: justify) {
+  .fnc-text-#{$key} {
     text-align: $value !important;
   }
 }
-

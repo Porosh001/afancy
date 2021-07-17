@@ -3,7 +3,7 @@
 
 
 @each $key, $value in config.$colors{
-  .hover-text-#{$key}:hover {
+  .fnc-hover-text-#{$key}:hover {
     color: var(--fnc-#{$key});
   }
 }
