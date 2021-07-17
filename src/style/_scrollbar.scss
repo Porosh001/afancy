@@ -11,19 +11,19 @@
 %sb-webkit-scrollbar-track { background-color: transparent; }
 
 @each $key, $value in config.$colors{
-  .sb-#{$key} {
+  .fnc-sb-#{$key} {
     @extend %sb;
     scrollbar-color: var(--fnc-#{$key}) transparent;
   }
   
-  .sb-#{$key}::-webkit-scrollbar{ @extend %sb-webkit-scrollbar; }
-  .sb-#{$key}::-webkit-scrollbar-track { @extend %sb-webkit-scrollbar-track; }
-  .sb-#{$key}::-webkit-scrollbar-thumb { background-color: var(--fnc-#{$key}); }
+  .fnc-sb-#{$key}::-webkit-scrollbar{ @extend %sb-webkit-scrollbar; }
+  .fnc-sb-#{$key}::-webkit-scrollbar-track { @extend %sb-webkit-scrollbar-track; }
+  .fnc-sb-#{$key}::-webkit-scrollbar-thumb { background-color: var(--fnc-#{$key}); }
 }
 
 
 
-.sb-thin {
+.fnc-sb-thin {
   scrollbar-width: thin !important;
   &::-webkit-scrollbar {
     width: 3px !important;
