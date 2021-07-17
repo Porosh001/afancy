@@ -1,5 +1,4 @@
 $aligns: (start:left, center:center, end:right, justify: justify);
-$text-transforms: lowercase capitalize uppercase;
 
 
 @each $key, $value in $aligns {
@@ -8,9 +7,3 @@ $text-transforms: lowercase capitalize uppercase;
   }
 }
 
-
-@each $element in $text-transforms {
-  .text-#{$element} {
-    text-transform: $element !important;
-  }
-}
