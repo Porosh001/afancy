@@ -1,24 +1,3 @@
-/// .cursor-none
-/// .cursor-auto
-/// .cursor-default
-///  ================
-/// .cursor-text
-/// .cursor-pointer
-///  ================
-/// .cursor-wait
-/// .cursor-progress
-///  ================
-/// .cursor-move
-/// .cursor-copy
-/// .cursor-col-resize
-///  ================
-/// .cursor-zoom-in
-/// .cursor-zoom-out
-///  ================
-/// .cursor-help
-/// .cursor-not-allowed
-
-
 $cursors: 
   none auto default
   text pointer
@@ -29,7 +8,7 @@ $cursors:
 
 
 @each $element in $cursors {
-  .cursor-#{$element}{
+  .fnc-cursor-#{$element}{
     cursor: $element !important;
   }
 }
