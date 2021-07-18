@@ -13,8 +13,8 @@
 
     "build:css-index": "sass src/index.scss dist/css/afancy.css",
     "build:css-grid":  "sass src/style/grid.scss dist/css/grid.css",
-    "build:css-index-min": "sass src/index.scss dist/css/afancy.min.css -s compressed",
-    "build:css-grid-min":  "sass src/style/grid.scss dist/css/grid.css -s compressed",
+    "build:css-index-min": "sass src/index.scss dist/css/afancy.min.css    -s compressed",
+    "build:css-grid-min":  "sass src/style/grid.scss dist/css/grid.min.css -s compressed",
 
     "watch:css-index": "sass -w src/index.scss dist/css/afancy.css",
     "watch:css-grid":  "sass -w src/style/grid.scss dist/css/grid.css"
