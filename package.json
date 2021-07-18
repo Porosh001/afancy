@@ -6,11 +6,18 @@
   "author": "Mahmudul Hasan Mithu",
   "license": "MIT",
   "scripts": {
-    "build": "yarn build:css && yarn build:css-min && yarn build:vue",
-    "build:css": "sass src/index.scss dist/css/afancy.css",
-    "build:css-min": "sass src/index.scss dist/css/afancy.min.css -s compressed",
+    "build": "yarn build:css && yarn build:vue",
+
     "build:vue": "vue build -t lib 'src/index.js' -d 'dist/js' -n afancy",
-    "watch:css": "sass -w src/index.scss dist/css/afancy.css"
+    "build:css": "yarn build:css-index && yarn build:css-grid && yarn build:css-index-min && yarn build:css-grid-min",
+
+    "build:css-index": "sass src/index.scss dist/css/afancy.css",
+    "build:css-grid":  "sass src/style/grid.scss dist/css/grid.css",
+    "build:css-index-min": "sass src/index.scss dist/css/afancy.min.css -s compressed",
+    "build:css-grid-min":  "sass src/style/grid.scss dist/css/grid.css -s compressed",
+
+    "watch:css-index": "sass -w src/index.scss dist/css/afancy.css",
+    "watch:css-grid":  "sass -w src/style/grid.scss dist/css/grid.css"
   },
   "dependencies": {
     "bootstrap": "^5.0.2",
