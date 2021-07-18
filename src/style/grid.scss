@@ -1,0 +1,35 @@
+@use 'sass:math';
+
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+) !default;
+
+
+
+.fnc-grid {
+  display: grid;
+}
+
+// .fnc-col-[1-12]
+@for $index from 1 through 12 {
+  .fnc-col-#{$index} {
+    grid-template-columns: repeat(auto-fill, math.div(100%, $index)  );
+  }
+}
+
+
+// .fnc-col-[sm, md, lg, xl, xxl]-[1-12]
+@each $index, $key in $grid-breakpoints {
+  @media all and (min-width: $key){
+    @for $i from 1 through 12 {
+      .fnc-col-#{$index}-#{$i} {
+        grid-template-columns: repeat(auto-fill, math.div(100%, $i)  );
+      }
+    }
+  }
+}
