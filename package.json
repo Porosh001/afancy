@@ -13,6 +13,7 @@
     "watch:css": "sass -w src/index.scss dist/css/afancy.css"
   },
   "dependencies": {
+    "bootstrap": "^5.0.2",
     "vue": "^2.6.14"
   }
 }
