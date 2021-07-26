@@ -1,8 +1,8 @@
-import components from './components';
+// import components from './components';
 import fnc from './fnc';
 
 const install = (Vue) => {
-  Vue.use(components);
+  // Vue.use(components);
   Vue.prototype.$fnc = fnc;
 }
 
