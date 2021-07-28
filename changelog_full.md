@@ -1,3 +1,17 @@
+## [🔖 Version 1.3.0](https://github.com/afancy-org/afancy/releases/tag/v1.3.0)
+### 🌱 Add
+- placeholder text color
+- placeholder text hover color
+
+### 🌳 Update
+N/A
+
+### 🔥 Remove
+N/A
+
+
+
+
 ## [🔖 Version 1.2.0](https://github.com/afancy-org/afancy/releases/tag/v1.2.0)
 ### 🌱 Add
 - text-justify alignment class
