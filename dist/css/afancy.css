@@ -129,6 +129,56 @@
   background-color: var(--fnc-black);
 }
 
+/** placeholder text color */
+.fnc-placeholder-text-primary::placeholder {
+  color: var(--fnc-primary);
+}
+
+.fnc-placeholder-text-success::placeholder {
+  color: var(--fnc-success);
+}
+
+.fnc-placeholder-text-danger::placeholder {
+  color: var(--fnc-danger);
+}
+
+.fnc-placeholder-text-warning::placeholder {
+  color: var(--fnc-warning);
+}
+
+.fnc-placeholder-text-light::placeholder {
+  color: var(--fnc-light);
+}
+
+.fnc-placeholder-text-black::placeholder {
+  color: var(--fnc-black);
+}
+
+/** placeholder text hover color */
+.fnc-hover-placeholder-text-primary:hover::placeholder {
+  color: var(--fnc-primary);
+}
+
+.fnc-hover-placeholder-text-success:hover::placeholder {
+  color: var(--fnc-success);
+}
+
+.fnc-hover-placeholder-text-danger:hover::placeholder {
+  color: var(--fnc-danger);
+}
+
+.fnc-hover-placeholder-text-warning:hover::placeholder {
+  color: var(--fnc-warning);
+}
+
+.fnc-hover-placeholder-text-light:hover::placeholder {
+  color: var(--fnc-light);
+}
+
+.fnc-hover-placeholder-text-black:hover::placeholder {
+  color: var(--fnc-black);
+}
+
 .fnc-sb-black, .fnc-sb-light, .fnc-sb-warning, .fnc-sb-danger, .fnc-sb-success, .fnc-sb-primary {
   overflow: auto;
   scrollbar-width: auto;

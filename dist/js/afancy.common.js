@@ -120,7 +120,7 @@ if (typeof window !== 'undefined') {
 
 // CONCATENATED MODULE: ./src/fnc/index.js
 /* harmony default export */ var fnc = ({
-  version: '1.2.0'
+  version: '1.3.0'
 });
 // CONCATENATED MODULE: ./src/index.js
 // import components from './components';
