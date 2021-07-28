@@ -11,6 +11,6 @@
 /** placeholder text hover color */
 @each $key, $value in config.$colors{
   .fnc-hover-placeholder-text-#{$key}:hover::placeholder {
-    color: var(--fnc-#{$key}) !important;
+    color: var(--fnc-#{$key});
   }
 }
