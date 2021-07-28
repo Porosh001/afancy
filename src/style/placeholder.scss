@@ -1,0 +1,16 @@
+@use './config' as config;
+
+/** placeholder text color */
+@each $key, $value in config.$colors{
+  .fnc-placeholder-text-#{$key}::placeholder {
+    color: var(--fnc-#{$key});
+  }
+}
+
+
+/** placeholder text hover color */
+@each $key, $value in config.$colors{
+  .fnc-hover-placeholder-text-#{$key}:hover::placeholder {
+    color: var(--fnc-#{$key}) !important;
+  }
+}
